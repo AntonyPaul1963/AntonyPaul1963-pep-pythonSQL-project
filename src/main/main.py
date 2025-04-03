@@ -1,7 +1,7 @@
 import csv
 import sqlite3
 
-# Connect to the SQLite in-memory database
+# Connect to the SQLite in-memory database     
 conn = sqlite3.connect(':memory:')
 
 # A cursor object to execute SQL commandscursor          
